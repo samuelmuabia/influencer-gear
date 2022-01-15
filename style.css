@@ -103,7 +103,9 @@ main{
 .banner-button:hover::before{
     content: "";
     color: black;
-    animation: hover 1s ease-in-out;
+    white-space: nowrap;
+    animation: hover 2s ease-in-out;
+    content: "PreBook Now";
 }
 @keyframes hover {
     0%{
@@ -144,10 +146,7 @@ main{
     }
     60%,100%{
         content: "PreBook Now";
-    }
-   
-     
-    
+    }  
 }
 
 .banner-button img{
@@ -187,6 +186,7 @@ main{
     background: rgba(255, 255, 255, 1);
     padding: 17px 14px;
     border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   }
   .product-image img{
     width: 300px;
