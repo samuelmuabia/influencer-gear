@@ -237,6 +237,7 @@ main{
       justify-content: end;
       align-items: center;
   }
+
   .more-products img{
       height: 24px;
       width: 24px;
@@ -335,6 +336,9 @@ footer{
     .banner-details{
           width: 90%;
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
       }
     .banner-image img{
           width: 100%;
